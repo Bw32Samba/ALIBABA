@@ -1,0 +1,20 @@
+{
+  "name": "virgo-web-banding",
+  "version": "1.0.0",
+  "description": "Web app Banding WA dengan login permanen dan verifikasi Telegram, dikembangkan oleh rajukingz",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["whatsapp", "banding", "express", "telegram", "nodemailer"],
+  "author": "rajukingz",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "nodemailer": "^6.9.4",
+    "telegraf": "^4.14.2"
+  }
+}
